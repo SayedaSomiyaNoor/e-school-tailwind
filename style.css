@@ -1,0 +1,57 @@
+.col
+{
+    background-color: #F8FFF0;
+}
+.c{
+    
+    background: #F8FFF0;
+}
+
+.btn{
+    border-radius: 30px;
+}
+.icon1, .icon2, .icon3,.icon4{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+   
+
+}
+.icon img{
+width: 70px;
+height: 70px;
+}
+
+.icon1{
+    
+        background-color: #F8FFF0;
+    }
+.icon2{
+        background-color: white;
+    }
+.icon3{
+        background-color: #F8FFF0;
+    }
+.icon4{
+    background-color: #F8FFF0;
+}
+.card img{
+    padding: 10px;
+   
+}
+.card{
+    border-radius: 20px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.bb{
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+

@@ -14,11 +14,11 @@
 
 <body class="container mx-auto">
   <header class="bg-[#F8FFF0] pt-4 px-6">
-    <nav class="flex justify-between">
+    <nav class="flex lg:justify-between lg:flex-row flex-col items-center">
       <a class="navbar-brand" href="#">
         <img height="50px" width="150px" src="images/ICON/Logo.png" alt="">
       </a>
-      <ul class="flex gap-10">
+      <ul class="flex lg:gap-10 lg:flex-row lg:ml-0 flex-col gap-2 ml-3">
         <li class="">
           <a class="nav-link active" aria-current="page" href="#">Books</a>
         </li>
@@ -31,16 +31,12 @@
         <li class="nav-item">
           <a href="#blog">Blog</a>
         </li>
-        <li class="nav-item">
-          <a href="#blog">
-            <button type="button"
-              class="bg-[#198754] rounded-[30px] px-4 py-2 border-4 border-[#c4ebd8] text-white">Sign
-              in</button>
-          </a>
-        </li>
       </ul>
+      <button type="button"
+              class="bg-[#198754] rounded-[30px] px-4 py-2 border-4 border-[#c4ebd8] text-white lg:mt-0 mt-2">Sign
+              in</button>
     </nav>
-    <div class="flex items-center gap-16">
+    <div class="flex items-center gap-16 lg:flex-row lg:text-left lg:mt-0 flex-col text-center mt-6">
       <div class="w-50 mx-3">
         <h5 class="text-[20px] font-bold text-[#198754]">Are you ready to learn</h5>
         <h1 class="font-bold text-[40px]">Learn with fun<br>on <span class="text-[#198754]">any schedule</span></h1>
@@ -57,24 +53,24 @@
   </header>
   <main>
     <section>
-      <div class="grid grid-cols-4 mt-14 justify-items-center mx-28 rounded-sm">
-        <div class="w-52 bg-[#F8FFF0] h-52 grid justify-center place-items-center py-6 text-[#212529]">
+      <div class="grid lg:grid-cols-4 mt-14 justify-items-center lg:mx-28 lg:gap-0 rounded-sm grid-cols-2 gap-y-4 mx-3">
+        <div class="lg:w-52 bg-[#F8FFF0] h-52 grid justify-center place-items-center py-6 text-[#212529] w-40">
           <img class="w-16" src="images/ICON/book.png" alt="">
           <h5 class="text-[20px]">1500+ Topic</h5>
           <p>Learn Anythings</p>
         </div>
-        <div class="w-52 bg-white shadow-2xl h-52 grid justify-center place-items-center py-6 text-[#212529]">
+        <div class="lg:w-52 bg-white shadow-2xl h-52 grid justify-center place-items-center py-6 text-[#212529] w-40">
           <img class="w-16" src="images/ICON/Student.png" alt="">
           <h5 class="text-[20px]">1800+ Topic</h5>
           <p>Learn Anythings</p>
         </div>
-        <div class="w-52 bg-[#F8FFF0] h-52 grid justify-center place-items-center py-6 text-[#212529]">
+        <div class="lg:w-52 bg-[#F8FFF0] h-52 grid justify-center place-items-center py-6 text-[#212529] w-40">
           <img class="w-16" src="images/ICON/Test.png" alt="">
           <h5 class="text-[20px]">9k+ Test Token</h5>
           <p>Learn Anythings</p>
         </div>
         <div class="col-md-3">
-          <div class="w-52 bg-[#F8FFF0] h-52 grid justify-center place-items-center py-6 text-[#212529]">
+          <div class="lg:w-52 bg-[#F8FFF0] h-52 grid justify-center place-items-center py-6 text-[#212529] w-40">
             <img class="w-16" src="images/ICON/Students.png" alt="">
             <h5 class="text-[20px]">2000+ students</h5>
             <p>Learn Anythings</p>
@@ -83,7 +79,7 @@
       </div>
     </section>
     <section>
-      <div class="grid grid-cols-3 mt-16 ml-20">
+      <div class="grid lg:grid-cols-3 mt-16 lg:ml-20 grid-cols-1 ml-9 lg:gap-0 gap-y-8">
         <div class="p-3 shadow-2xl w-[330px] rounded-lg">
           <img src="images/Photos/Morder pyschology.png" class="card-img-top img-fluid" alt="...">
           <h5 class="text-[20px] text-[#212529] mt-5">Modern Psychology</h5>
@@ -136,9 +132,9 @@
     </section>
     <section>
       <h3 class="text-center text-[28px] mt-16 font-semibold">Testimonial</h3>
-      <div class="flex items-center mx-56 gap-10">
+      <div class="flex items-center lg:mx-56 lg:gap-10 lg:mt-0 lg:flex-row mx-10 mt-8 flex-col lg:text-left text-center ">
           <div>
-            <img src="images/Photos/Man.png" alt="">
+            <img class="lg:w-auto w-28" src="images/Photos/Man.png" alt="">
           </div>
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sint impedit esse sequi officia qui
@@ -149,7 +145,7 @@
     </section>
   </main>
   <footer class="bg-black text-white mt-20">
-    <div class="flex gap-24 px-28 py-10">
+    <div class="lg:flex lg:gap-24 lg:px-28 py-10 grid grid-cols-2 gap-6 px-14">
         <div>
           <p>Millions of people of all ages and from around the world are improving theirvlives with us</p>
         </div>
